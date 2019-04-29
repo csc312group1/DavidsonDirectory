@@ -1,0 +1,67 @@
+
+.linkAlike{
+    background:none!important;
+     border:none; 
+     padding:0!important;
+    
+    /*optional*/
+    font-family:arial,sans-serif; /*input has OS specific font-family*/
+     color:#069;
+     text-decoration:underline;
+     cursor:pointer;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+#Tournament{
+  background-color: #DCDCDC;
+  max-width: 100%;
+}
+
+#Player{
+  background-color: #DCDCDC;
+  max-width: 100%;
+}
+
+#One_Player{
+  background-color: #DCDCDC;
+  max-width: 100%;
+}
+
+#One_Tournament{
+  background-color: #DCDCDC;
+  max-width: 100%;
+}
+
+#Match{
+  background-color: #DCDCDC;
+  max-width: 100%;
+}
+
+
+#title{
+  color: #F1684E;
+}
+.container{
+  background-color: #1B1B1B;
+}
+
+#tournamentTitle{
+    background-color: #fffff0;
+}
+
+
+#playerTitle{
+    background-color: #fffff0;
+}
+
+#matchTitle{
+    background-color: #fffff0;
+}
