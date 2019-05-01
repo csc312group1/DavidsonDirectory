@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Custom Style Sheet -->
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+	<!-- Bootstrap Style Sheet -->
+	<link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+	<title>Davidson College Directory</title>
+	<style>
+  </style>
+</head>
+
+<body>
+<!--Content Goes Here -->
+<div>
+	<!-- Page Header -->
+	<header>
+		<div class="row darkBack">
+			<div class="col-1"></div>
+			<div class="col-2">
+					<br>
+					<center>
+			    <a href="index.html" title="home">
+			        <img class="img-fluid" src="https://www.davidson.edu/assets/prebuilt/img/logo.png" alt="Davidson College logo" />
+			    </a>
+					</center>
+					<p></p>
+			</div>
+			<div class="col-9">
+				<br>
+				<h1 class="whiteFont">Davidson College Directory</h1>
+				<p></p>
+			</div>
+		</div>
+		<hr style="margin-bottom:3px; margin-top:3px; height:2px; border:none; background-color:#FFFFFF;"/>
+	</header>
+
+	<div class="row darkBack whiteFont">
+		<div class="col-1"></div>
+		<!-- Login and icon -->
+		<div class="col-2">
+			<br>
+			<img style="width:13em; height:13em;" class="center img-fluid" src="img/logo.png" alt="Davidson College Logo"/>
+			<br>
+			<form action="login.html">
+				<button id="loginButton" type="submit">Login</button>
+			</form>
+		</div>
+		<!-- Search Section -->
+		<div class="col-8">
+			<br><br>
+			<fieldset class="border">
+				<legend id="searchLegend">Davidson College</legend>
+				<fieldset class="border" title="Find a Faculty/Staff or a Student member">
+					<legend id="searchLegend">Find a:</legend>
+					<input type="radio" id="faculty/staff" name="faculty/staff">
+					<label for="faculty/staff">Faculty/Staff</label><br/>
+
+					<input type="radio" id="student" name="student">
+					<label for="sasquatch">Student</label><br/>
+				</fieldset>
+				<label for="LastName">
+					Last Name
+					<input name="LastName" type="text" maxlength="20" id="LastName" class="textarea" />
+				</label>
+				<label for="FirstName">
+					First Name
+					<input name="FirstName" type="text" maxlength="20" id="FirstName" class="textarea" />
+				</label>
+				<!-- <label for="MiddleName">
+					Middle Initial
+					<input name="MiddleName" type="text" maxlength="20" id="MiddleName" class="textarea" />
+				</label> -->
+				<input type="submit" name="btnFind" value="Find" id="btnFind" class="submit" />
+				<input type="submit" name="btnReset" value="Reset" id="btnReset" class="submit" />
+			 </fieldset>
+			</fieldset>
+		</div>
+		<div class="col-1"></div>
+	</div>
+	<hr style="margin-bottom:0px; margin-top:0px; height:2em; border:none; background-color:#292826;"/>
+
+	<!-- History Section -->
+	<div class="row darkBack whiteFont">
+		<div class="col-1"></div>
+		<!---Search Fields --->
+		<div class="col-2">
+			<h3 id="descrpTitle">History</h3>
+			<div class="whiteBack blackFont" style="border-radius: 0.4em;">
+				<p>place holder</p>
+				<p>place holder</p>
+				<p>place holder</p>
+				<p>place holder</p>
+				<p>place holder</p>
+				<p>place holder</p>
+			</div>
+		</div>
+
+		<!-- Directory Explanation -->
+		<div class="col-8">
+			<h3 id="descrpTitle">How to use online directory</h3>
+			<p>
+				1) Click the button for Faculty/Staff or Student.<br>
+				2) Enter all or part of a first name, last name or middle initial to search for faculty, students or staff.<br>
+				3) Click on Fac/Staff Advanced Search to search by all or part of a person’s job title or department.<br>
+				Example: Mary Smith, Mary, smith, smi, professor, prof, chem.<br>
+				4) If your search doesn’t yield the expected results, try searching in a different field.<br>
+				<br>
+				All information in this directory is drawn directly from Banner; a person’s Banner information may be slightly
+				different from what you expect. Searching for a different type of information may be helpful.<br>
+				<br>
+				Search keywords are not case sensitive.
+			</p>
+		</div>
+
+		<div class="col-1"></div>
+	</div>
+</div>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+	crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
+</body>
