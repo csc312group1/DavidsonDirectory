@@ -16,7 +16,7 @@ fetch("https://elastic.snaplogic.com:443/api/1/rest/slsched/feed/davidsonDEV/San
       if (err) throw err;
       var DD = db.db("DavidsonDirectory");
 
-      DD.fs.drop()
+      //DD.fs.drop()
 
       // Create collection
       DD.createCollection("fs", function(err, res) {
@@ -46,7 +46,7 @@ fetch("https://elastic.snaplogic.com/api/1/rest/slsched/feed/davidsonDEV/Sandbox
       if (err) throw err;
       var DD = db.db("DavidsonDirectory");
 
-      
+      //DD.fs.drop()
 
       // Create collection
       DD.createCollection("st", function(err, res) {
