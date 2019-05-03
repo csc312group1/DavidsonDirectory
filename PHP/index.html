@@ -47,9 +47,6 @@
 			<br>
 			<img style="width:13em; height:13em;" class="center img-fluid" src="img/logo.png" alt="Davidson College Logo"/>
 			<br>
-			<form action="login.html">
-				<button id="loginButton" type="submit">Login</button>
-			</form>
 		</div>
 		<!-- Search Section -->
 		<div class="col-8">
@@ -58,8 +55,8 @@
 				<legend id="searchLegend">Davidson College</legend>
 				<!--<fieldset class="border" title="Find a Faculty/Staff or a Student member">
 					<legend id="searchLegend">Find a:</legend>
-					
-					
+
+
 					<input type="radio" value="FacultyAndStaff" id="faculty/staff" name="type">
 					<label for="type">Faculty/Staff</label><br/>
 
@@ -82,11 +79,13 @@
 				<input type="submit" name="btnFind" value="Find Student" id="btnFind" class="submit" />
 				<input type="submit" name="btnFind" value="Find Faculty/Staff" id="btnFind" class="submit" formaction="facultyResults.php" />
 				</form>
-				
+
 				<input type="submit" name="btnReset" value="Reset" id="btnReset" class="submit" onclick='location.href="index.html"'/>
 			 </fieldset>
 			</fieldset>
-			
+			<form action="login.html">
+				<button id="loginButton" type="submit">Davidson Login</button>
+			</form>
 		</div>
 		<div class="col-1"></div>
 	</div>
@@ -96,19 +95,20 @@
 	<div class="row darkBack whiteFont">
 		<div class="col-1"></div>
 		<!---Search Fields --->
-		<div class="col-2">
-			
-		</div>
+		<!-- <div class="col-2">
+
+		</div> -->
 
 		<!-- Directory Explanation -->
-		<div class="col-8">
+		<div class="col-10">
 			<h3 id="descrpTitle">How to use online directory</h3>
 			<p class="smallIndent">
-				(1) Click the button for Faculty/Staff or Student.<br>
-				(2) Enter all or part of a first name, last name or middle initial to search for faculty, students or staff.<br>
-				(3) Click on Fac/Staff Advanced Search to search by all or part of a person’s job title or department.<br>
-				(Example: Mary Smith, Mary, smith, smi, professor, prof, chem)<br>
-				(4) If your search doesn’t yield the expected results, try searching in a different field.<br>
+				(1) Enter either the first name or the last name for either student, faculty, or staff.<br>
+				(2) Depending on the query, click "Find Student" or "Find Faculty/Staff" button. Feel free to reset your
+				 input using the "Reset" button.<br>
+				(3) You will be directed to the results page after searching, which has a table of results that match your search request.
+						Select a specific person in mind, and you will be taken to the individual page.<br>
+				(4) If your search doesn’t yield the expected results, you will be directed to an empty results page. Try searching in a different field.<br>
 				<br>
 				All information in this directory is drawn directly from Banner; a person’s Banner information may be slightly
 				different from what you expect. Searching for a different type of information may be helpful.<br>
